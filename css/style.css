@@ -11,6 +11,15 @@ h1 {
   padding: 10px;
 }
 
+p:first-letter {
+  font-weight: bold;
+  text-indent: 0;
+}
+
+p:first-line {
+  font-variant: small-caps;
+}
+
 h2 {
   border-bottom: 2px groove #333333;
   margin-top: 30px;

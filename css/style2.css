@@ -36,6 +36,14 @@ header{
     color: 003366;
 }
 
+.menu-opcoes a:hover {
+  color: #007dc6;
+}
+
+.menu-opcoes a:active {
+  color: red;
+}
+
 .menu-opcoes ul li {
 	display: inline;
 	margin-left: 20px;
@@ -61,6 +69,22 @@ header{
     clear: left;
     margin-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .menu-departamentos li ul {
+    display: none;
+  }
+
+  .menu-departamentos li:hover ul {
+    display: block;
+  }
+  
+  .menu-departamentos ul ul li {
+    background-color: #dcdcdc;
+  }
+
+  .menu-departamentos li li a:before {
+    content: '- ';
   }
 
   .busca h2, .busca form, .menu-departamentos h2 {
