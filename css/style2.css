@@ -130,34 +130,43 @@ figcaption {
   text-align: center;
 }
 
-.social a {
-	height: 32px;
-	width: 32px;
-	display: block;
-	text-indent: -9999px;
-}
-.social a[href*="facebook.com"] {
-	background-image: url(imagens/facebook.png);
-}
-.social a[href*="plus.google.com"] {
-	background-image: url(imagens/googleplus.png);
-}
-.social a[href*="twitter.com"] {
-	background-image: url(imagens/twitter.png);
-}
 footer {
-	background-image: url(imagens/fundo-rodape.png);
+	background-image: url(../imagens/fundo-rodape.png);
 	clear: both;
-	padding: 20px;
+	padding: 20px 0;
 }
+
 footer .container {
 	position: relative;
 }
+
+.social a {
+	/* tamanho da imagem */
+	height: 32px;
+	width: 32px;
+	/* image replacement */
+	display: block;
+	text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+	background-image: url(../imagens/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+	background-image: url(../imagens/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+	background-image: url(../imagens/googleplus.png);
+}
+
 .social {
 	position: absolute;
 	top: 12px;
 	right: 0;
 }
+
 .social li {
 	float: left;
 	margin-left: 25px;
