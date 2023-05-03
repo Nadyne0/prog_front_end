@@ -193,3 +193,13 @@ footer .container {
 	float: left;
 	margin-left: 25px;
 }
+
+.painel {
+  border-radius: 4px;
+  box-shadow: inset 1px 1px 4px #999;
+}
+
+.painel h2 {
+  text-shadow: 3px 3px 2px;
+  opacity: 50%;
+}
