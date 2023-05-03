@@ -165,10 +165,8 @@ footer .container {
 }
 
 .social a {
-	/* tamanho da imagem */
 	height: 32px;
 	width: 32px;
-	/* image replacement */
 	display: block;
 	text-indent: -9999px;
 }
