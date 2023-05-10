@@ -6,7 +6,9 @@
 	width: 940px
 }Substituido pelo contanier*/
 body{
-	margin: 0;	
+	color: 333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande" sans-serif;
+	margin: 0;
 }
 
 h1{ 
@@ -88,24 +90,24 @@ footer .container {
 
 .social {
 	position: absolute;
-	top: 15px;
+	top: 12px;
 	right: 0;
 }
 
 .social li {
 	float: left;
-	margin-left: 30px;
+	margin-left: 25px;
 }
 
 .container {
 	margin: 0 auto;
-	width: 960px;
+	width: 940px;
 }
 
-.container ul li {
-	display: inline;
-	margin: 15px;
+footer .container {
+	position: relative;
 }
+
 header{
 	position: relative;	
 }
