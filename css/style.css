@@ -6,12 +6,10 @@
 	width: 940px
 }Substituido pelo contanier*/
 body{
-	color: 333333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande" sans-serif;
-	margin: 0;
+	margin: 0;	
 }
 
-h1{ 
+.titulo{ /*Substituindo o H1*/
 	background-image: url(../imagens/sobre-background.jpg);	
 	padding: 10px;
 	font-size: 25px;
@@ -41,7 +39,16 @@ p{
 	margin-right: auto;	
 	width: 550px;
 }
-
+#rodape {
+	color: #777;
+	margin: 30px 0;
+	padding: 30px 0;
+}
+#rodape img {
+	margin-right: 30px;
+	vertical-align: middle;
+	width: 94px;
+}
 #familia-pelho {
 	float: right;
 	margin: 0 0 10px 10px;	
@@ -57,106 +64,4 @@ h1 + p{
 
 p:first-line{
 	font-variant: small-caps;
-}
-
-footer {
-	background-image: url(../imagens/fundo-rodape.png);
-	clear: both;
-	padding: 20px 0;
-}
-
-footer .container {
-	position: relative;
-}
-
-.social a {
-	height: 32px;
-	width: 32px;
-	display: block;
-	text-indent: -9999px;
-}
-
-.social a[href*="facebook.com"] {
-	background-image: url(../imagens/facebook.png);
-}
-
-.social a[href*="twitter.com"] {
-	background-image: url(../imagens/twitter.png);
-}
-
-.social a[href*="plus.google.com"] {
-	background-image: url(../imagens/googleplus.png);
-}
-
-.social {
-	position: absolute;
-	top: 12px;
-	right: 0;
-}
-
-.social li {
-	float: left;
-	margin-left: 25px;
-}
-
-.container {
-	margin: 0 auto;
-	width: 940px;
-}
-
-footer .container {
-	position: relative;
-}
-
-header{
-	position: relative;	
-}
-
-.sacola {
-    background: url(../imagens/sacola.png) no-repeat top right;
-
-    font-size: 14px;
-    padding-right: 35px;
-    padding-top: 8px;
-    text-align: right;
-    width: 140px;
-
-    position: absolute;
-    top: 0;
-    right: 0; 
-}
-
-.menu-opcoes {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.menu-opcoes ul {
-    font-size: 15px;
-}
-
-.menu-opcoes a {
-    color: 003366;
-}
-
-.menu-opcoes a:hover {
-  color: #007dc6;
-}
-
-.menu-opcoes a:active {
-  color: red;
-}
-
-.menu-opcoes ul li {
-	display: inline;
-	margin-left: 20px;
-}
-
-p:first-line{
-	font-variant: small-caps;
-}
-
-p:first-letter{
-	font-weight: bold;
 }
