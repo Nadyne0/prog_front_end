@@ -1,7 +1,5 @@
-@media  (max-width: 939px) {
-    .container {
+.container {
         width: 96%;
-    }
 }
 
 header h1 {
