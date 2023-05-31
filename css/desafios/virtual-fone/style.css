@@ -15,7 +15,7 @@ body {
 h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
-    color: azure;
+    color: white;
 }
 
 input {
@@ -31,7 +31,7 @@ input {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 
-    background-color: #ccc;
+    background-color: black;
     border-radius: 30px;
 
     padding: 10px;
@@ -60,5 +60,5 @@ input[type=button] {
 
 input[type=button]:hover {
     font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
 }
