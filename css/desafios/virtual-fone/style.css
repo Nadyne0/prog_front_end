@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+    min-height: 100vh;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: azure;
+}
+
+input {
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    background-color: #ccc;
+    border-radius: 30px;
+
+    padding: 10px;
+}
+
+input[type=tel] {
+    background-color: white;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 22px;
+    height: 40px;
+    margin-bottom: 24px;
+    padding: 10px;
+    text-align: center;
+    width: 280px;
+}
+
+input[type=button] {
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+}
